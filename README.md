@@ -7,8 +7,25 @@
 5) Run generate_data.py to generate records
 6) Run identify_sdoh.py to identify potential SDOH
 
-** Sample output from generate_data.py **
+
+
+**Sample output from identify_sdoh.py**
+```xml
+<record="c6d7e2f1-b3c4-4a9a-8d8e-f6e5d9d7e2f1">
+    <Detected_SDOH="Homelessness">
+        <Trigger>Patient presented with symptoms of dehydration and malnutrition. Mentioned living in a car for the past few months.</Trigger>
+    </Detected_SDOH>
+</record>
+
+<record="e2f1c6d7-e2f1-4a9a-8d8e-f6e5d9d7e2f2">
+    <Detected_SDOH="Financial Insecurity">
+        <Trigger>Patient presented with complaints of severe back pain. Mentioned inability to afford prescribed pain medications.</Trigger>
+    </Detected_SDOH>
+</record>
 ```
+
+**Sample output from generate_data.py**
+```json
 [
   {
     "uuid": "a0efa8d2-9a5f-4c3b-8d8c-e6d5b4d9f3e1",
@@ -91,19 +108,4 @@
     ]
   }
 ]
-```
-
-** Sample output from identify_sdoh.py **
-```
-<record="c6d7e2f1-b3c4-4a9a-8d8e-f6e5d9d7e2f1">
-    <Detected_SDOH="Homelessness">
-        <Trigger>Patient presented with symptoms of dehydration and malnutrition. Mentioned living in a car for the past few months.</Trigger>
-    </Detected_SDOH>
-</record>
-
-<record="e2f1c6d7-e2f1-4a9a-8d8e-f6e5d9d7e2f2">
-    <Detected_SDOH="Financial Insecurity">
-        <Trigger>Patient presented with complaints of severe back pain. Mentioned inability to afford prescribed pain medications.</Trigger>
-    </Detected_SDOH>
-</record>
 ```
