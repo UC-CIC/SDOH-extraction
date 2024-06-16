@@ -29,6 +29,7 @@ Rules:
 - Housing Instability
 - Homelessness
 - Affordability
+- Financial Insecurity
 - Substance Abuse
 - Low socioeconomic status
 
