@@ -14,15 +14,17 @@
 **Sample output from identify_sdoh.py**
 ```xml
 <record="c6d7e2f1-b3c4-4a9a-8d8e-f6e5d9d7e2f1">
-    <Detected_SDOH="Homelessness">
+    <Detection>True</Detection>
+    <Identified="Homelessness">
         <Trigger>Patient presented with symptoms of dehydration and malnutrition. Mentioned living in a car for the past few months.</Trigger>
-    </Detected_SDOH>
+    </Identified>
 </record>
 
 <record="e2f1c6d7-e2f1-4a9a-8d8e-f6e5d9d7e2f2">
-    <Detected_SDOH="Financial Insecurity">
+    <Detection>True</Detection>
+    <Identified="Financial Insecurity">
         <Trigger>Patient presented with complaints of severe back pain. Mentioned inability to afford prescribed pain medications.</Trigger>
-    </Detected_SDOH>
+    </Identified>
 </record>
 ```
 
