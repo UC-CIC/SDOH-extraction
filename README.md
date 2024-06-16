@@ -3,9 +3,11 @@
 1) Create venv
 2) Activate
 3) Pip install requirements.txt
-4) Create folder called `generated_data`
-5) Run generate_data.py to generate records
-6) Run identify_sdoh.py to identify potential SDOH
+4) Enable access to models of choice on Amazon Bedrock
+5) Update code to use according model id
+6) Create folder called `generated_data` if it does not exist
+7) Run `generate_data.py` to generate records
+8) Run `identify_sdoh.py` to identify potential SDOH from records
 
 
 
