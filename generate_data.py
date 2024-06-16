@@ -41,7 +41,7 @@ try:
     # Extract and print the response text.
     response_text = response["output"]["message"]["content"][0]["text"]
     #print(response_text)
-    with open('generated_data/records.txt', 'w') as f:
+    with open('generated_data/records.json', 'w') as f:
         f.write(response_text)
 
 except (ClientError, Exception) as e:

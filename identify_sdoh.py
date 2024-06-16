@@ -21,7 +21,7 @@ indicate Social Determinates of Health.  For example, there may be a note indica
 
 
 
-with open('generated_data/records.txt', 'r') as f:
+with open('generated_data/records.json', 'r') as f:
     # Read the contents of the file
     contents = f.read()
     
@@ -49,7 +49,7 @@ try:
     # Extract and print the response text.
     response_text = response["output"]["message"]["content"][0]["text"]
     print(response_text)
-    with open('generated_data/identified_sdoh.txt', 'w') as f:
+    with open('generated_data/identified_sdoh.xml', 'w') as f:
         f.write(response_text)
 
 except (ClientError, Exception) as e:
